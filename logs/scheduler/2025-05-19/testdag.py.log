@@ -1,0 +1,113 @@
+[2025-05-19T23:05:03.921+0000] {processor.py:161} INFO - Started process (PID=72) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:05:03.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:05:03.929+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:03.928+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:05:04.038+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:05:04.141+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:05:04.804+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:04.802+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:bug
+[2025-05-19T23:05:04.831+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:04.830+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:bug
+[2025-05-19T23:05:04.897+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:04.896+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:bug
+[2025-05-19T23:05:04.900+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:04.899+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:05:04.935+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:04.935+0000] {dag.py:3069} INFO - Creating ORM DAG for bug
+[2025-05-19T23:05:04.966+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:04.965+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:05:05.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 1.111 seconds
+[2025-05-19T23:05:35.717+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:05:35.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:05:35.727+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:35.726+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:05:35.773+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:05:35.786+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:05:35.843+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:35.842+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:05:35.909+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:35.908+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:05:35.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.268 seconds
+[2025-05-19T23:06:07.045+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:06:07.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:06:07.056+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:07.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:06:07.135+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:06:07.149+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:06:07.191+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:07.190+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:06:07.260+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:07.259+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:06:07.331+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.299 seconds
+[2025-05-19T23:06:37.565+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:06:37.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:06:37.578+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:37.575+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:06:37.646+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:06:37.662+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:06:37.721+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:37.720+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:06:37.785+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:37.785+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:06:37.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.337 seconds
+[2025-05-19T23:07:08.774+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:07:08.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:07:08.799+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:08.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:07:08.884+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:07:08.896+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:07:08.938+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:08.937+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:07:08.983+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:08.983+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:07:09.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.343 seconds
+[2025-05-19T23:07:39.333+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:07:39.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:07:39.339+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:39.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:07:39.376+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:07:39.389+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:07:39.436+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:39.435+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:07:39.509+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:39.508+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:07:39.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.355 seconds
+[2025-05-19T23:08:10.064+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:08:10.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:08:10.073+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:10.072+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:08:10.126+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:08:10.137+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:08:10.187+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:10.187+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:08:10.244+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:10.244+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:08:10.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.244 seconds
+[2025-05-19T23:08:40.544+0000] {processor.py:161} INFO - Started process (PID=472) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:08:40.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:08:40.551+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:40.550+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:08:40.598+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:08:40.611+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:08:40.661+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:40.660+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:08:40.802+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:40.802+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:08:40.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.419 seconds
+[2025-05-19T23:09:11.664+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:09:11.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:09:11.675+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:11.674+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:09:12.167+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:09:12.220+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:09:12.330+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:12.330+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:09:12.477+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:12.476+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:09:12.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.922 seconds
+[2025-05-19T23:09:43.068+0000] {processor.py:161} INFO - Started process (PID=587) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:09:43.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:09:43.528+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:43.526+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:09:43.881+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:09:43.933+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:09:44.046+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:44.045+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:09:44.131+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:44.130+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:09:44.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 1.170 seconds
+[2025-05-19T23:10:14.442+0000] {processor.py:161} INFO - Started process (PID=644) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:10:14.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:10:14.450+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:14.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:10:14.501+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:10:14.518+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:10:14.574+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:14.573+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:10:14.643+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:14.642+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:10:14.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.261 seconds
+[2025-05-19T23:10:45.316+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:10:45.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:10:45.327+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:45.326+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:10:45.410+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:10:45.432+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:10:45.502+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:45.502+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:10:45.602+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:45.601+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:10:45.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 0.392 seconds
+[2025-05-19T23:11:51.585+0000] {processor.py:161} INFO - Started process (PID=757) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:11:51.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:11:51.690+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:11:51.687+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:11:52.500+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:11:52.579+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:45:17.605+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/testdag.py
+[2025-05-19T23:45:17.612+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/testdag.py for tasks to queue
+[2025-05-19T23:45:17.635+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:45:17.634+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/testdag.py
+[2025-05-19T23:45:21.785+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py:374 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2025-05-19T23:45:22.302+0000] {processor.py:840} INFO - DAG(s) 'bug' retrieved from /opt/airflow/dags/testdag.py
+[2025-05-19T23:45:46.467+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:45:46.466+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-05-19T23:45:47.479+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:45:47.478+0000] {dag.py:3834} INFO - Setting next_dagrun for bug to 2025-05-19 00:00:00+00:00, run_after=2025-05-20 00:00:00+00:00
+[2025-05-19T23:45:48.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/testdag.py took 30.922 seconds

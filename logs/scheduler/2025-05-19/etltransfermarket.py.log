@@ -1,0 +1,312 @@
+[2025-05-19T23:05:03.902+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:05:03.905+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:05:03.911+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:03.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:05:03.973+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:03.962+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:05:03.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:05:04.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.156 seconds
+[2025-05-19T23:05:34.379+0000] {processor.py:161} INFO - Started process (PID=128) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:05:34.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:05:34.400+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:34.398+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:05:34.473+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:05:34.458+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:05:34.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:05:34.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.227 seconds
+[2025-05-19T23:06:04.731+0000] {processor.py:161} INFO - Started process (PID=185) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:06:04.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:06:04.747+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:04.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:06:04.795+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:04.784+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:06:04.799+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:06:04.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.150 seconds
+[2025-05-19T23:06:35.759+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:06:35.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:06:35.769+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:35.768+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:06:35.823+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:06:35.811+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:06:35.829+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:06:35.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.197 seconds
+[2025-05-19T23:07:06.500+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:07:06.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:07:06.529+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:06.526+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:07:06.585+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:06.576+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:07:06.589+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:07:06.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.161 seconds
+[2025-05-19T23:07:36.945+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:07:36.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:07:36.954+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:36.953+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:07:36.997+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:07:36.989+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:07:37.000+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:07:37.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.155 seconds
+[2025-05-19T23:08:07.849+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:08:07.856+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:08:07.874+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:07.871+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:08:07.937+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:07.927+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:08:07.940+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:08:08.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.226 seconds
+[2025-05-19T23:08:38.301+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:08:38.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:08:38.309+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:38.308+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:08:38.350+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:08:38.341+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:08:38.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:08:38.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.109 seconds
+[2025-05-19T23:09:08.522+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:09:08.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:09:08.540+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:08.533+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:09:08.594+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:08.586+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:09:08.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:09:08.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.157 seconds
+[2025-05-19T23:09:39.659+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:09:39.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:09:39.667+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:39.666+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:09:39.709+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:09:39.698+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:09:39.713+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:09:39.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.125 seconds
+[2025-05-19T23:10:10.004+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:10:10.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:10:10.020+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:10.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:10:10.097+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:10.080+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:10:10.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:10:10.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.195 seconds
+[2025-05-19T23:10:41.161+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:10:41.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:10:41.175+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:41.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:10:41.226+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:10:41.216+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:10:41.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:10:41.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.138 seconds
+[2025-05-19T23:11:51.417+0000] {processor.py:161} INFO - Started process (PID=756) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:11:51.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:11:51.513+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:11:51.504+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:11:52.107+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:11:52.040+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:11:52.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:12:09.102+0000] {processor.py:186} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 182, in _run_file_processor
+    _handle_dag_file_processing()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 163, in _handle_dag_file_processing
+    result: tuple[int, int] = dag_file_processor.process_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 843, in process_file
+    DagFileProcessor.update_import_errors(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 622, in update_import_errors
+    existing_import_error_files = [x.filename for x in session.query(errors.ImportError.filename).all()]
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2773, in all
+    return self._iter().all()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 146, in _do_get
+    self._dec_overflow()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/impl.py", line 143, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-05-19T23:45:16.834+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:45:16.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-19T23:45:16.890+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:45:16.887+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:45:18.047+0000] {logging_mixin.py:188} INFO - [2025-05-19T23:45:17.871+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-19T23:45:18.098+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-19T23:45:23.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 6.507 seconds

@@ -1,0 +1,84 @@
+[2025-05-20T02:17:31.011+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:17:31.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-20T02:17:31.196+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:17:31.190+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:17:32.119+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:17:31.928+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-20T02:17:32.138+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:17:35.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 4.443 seconds
+[2025-05-20T02:18:10.356+0000] {processor.py:161} INFO - Started process (PID=135) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:18:10.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-20T02:18:10.376+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:10.375+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:18:10.435+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:10.418+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-20T02:18:10.437+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:18:10.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.194 seconds
+[2025-05-20T02:18:40.817+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:18:40.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-20T02:18:40.867+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:40.866+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:18:40.923+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:40.913+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-20T02:18:40.926+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:18:41.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.352 seconds
+[2025-05-20T02:19:12.006+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:19:12.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-20T02:19:12.024+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:12.023+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:19:12.122+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:12.100+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-20T02:19:12.129+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:19:12.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.229 seconds
+[2025-05-20T02:19:43.300+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:19:43.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-20T02:19:43.336+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:43.334+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:19:43.391+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:43.384+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-20T02:19:43.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:19:43.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.161 seconds
+[2025-05-20T02:20:14.155+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:20:14.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etltransfermarket.py for tasks to queue
+[2025-05-20T02:20:14.176+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:20:14.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:20:14.337+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:20:14.256+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etltransfermarket.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etltransfermarket.py", line 7, in <module>
+    from plugins.player import get_trans, print_done, transform, save_to_mongodb
+ModuleNotFoundError: No module named 'plugins'
+[2025-05-20T02:20:14.345+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etltransfermarket.py
+[2025-05-20T02:20:14.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etltransfermarket.py took 0.337 seconds

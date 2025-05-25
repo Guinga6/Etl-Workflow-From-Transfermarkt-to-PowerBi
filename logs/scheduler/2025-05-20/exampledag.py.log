@@ -1,0 +1,84 @@
+[2025-05-20T02:17:35.681+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/exampledag.py
+[2025-05-20T02:17:35.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-05-20T02:17:35.840+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:17:35.829+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:17:36.146+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:17:36.117+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/exampledag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/exampledag.py", line 23, in <module>
+    from airflow import Asset
+ImportError: cannot import name 'Asset' from 'airflow' (/home/airflow/.local/lib/python3.8/site-packages/airflow/__init__.py)
+[2025-05-20T02:17:36.152+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:17:36.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 1.337 seconds
+[2025-05-20T02:18:10.792+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/exampledag.py
+[2025-05-20T02:18:10.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-05-20T02:18:10.931+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:10.930+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:18:11.391+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:11.357+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/exampledag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/exampledag.py", line 23, in <module>
+    from airflow import Asset
+ImportError: cannot import name 'Asset' from 'airflow' (/home/airflow/.local/lib/python3.8/site-packages/airflow/__init__.py)
+[2025-05-20T02:18:11.411+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:18:11.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.782 seconds
+[2025-05-20T02:18:42.038+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/exampledag.py
+[2025-05-20T02:18:42.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-05-20T02:18:42.049+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:42.048+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:18:42.099+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:18:42.089+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/exampledag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/exampledag.py", line 23, in <module>
+    from airflow import Asset
+ImportError: cannot import name 'Asset' from 'airflow' (/home/airflow/.local/lib/python3.8/site-packages/airflow/__init__.py)
+[2025-05-20T02:18:42.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:18:42.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.131 seconds
+[2025-05-20T02:19:12.418+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/exampledag.py
+[2025-05-20T02:19:12.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-05-20T02:19:12.423+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:12.423+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:19:12.455+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:12.448+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/exampledag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/exampledag.py", line 23, in <module>
+    from airflow import Asset
+ImportError: cannot import name 'Asset' from 'airflow' (/home/airflow/.local/lib/python3.8/site-packages/airflow/__init__.py)
+[2025-05-20T02:19:12.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:19:12.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.104 seconds
+[2025-05-20T02:19:43.488+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/exampledag.py
+[2025-05-20T02:19:43.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-05-20T02:19:43.494+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:43.494+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:19:43.530+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:19:43.524+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/exampledag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/exampledag.py", line 23, in <module>
+    from airflow import Asset
+ImportError: cannot import name 'Asset' from 'airflow' (/home/airflow/.local/lib/python3.8/site-packages/airflow/__init__.py)
+[2025-05-20T02:19:43.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:19:43.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.134 seconds
+[2025-05-20T02:20:14.543+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/exampledag.py
+[2025-05-20T02:20:14.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/exampledag.py for tasks to queue
+[2025-05-20T02:20:14.549+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:20:14.548+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:20:14.581+0000] {logging_mixin.py:188} INFO - [2025-05-20T02:20:14.574+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/exampledag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/exampledag.py", line 23, in <module>
+    from airflow import Asset
+ImportError: cannot import name 'Asset' from 'airflow' (/home/airflow/.local/lib/python3.8/site-packages/airflow/__init__.py)
+[2025-05-20T02:20:14.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/exampledag.py
+[2025-05-20T02:20:14.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/exampledag.py took 0.106 seconds
